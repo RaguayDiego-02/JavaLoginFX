@@ -1,7 +1,33 @@
-/*
- * Empty Stylesheet file.
- */
 
-.mainFxmlClass {
+#AnchorPane {
+    -fx-background-color: #33383e;
+}
 
+.label {
+    -fx-text-fill: #d7dade;
+    -fx-font-size: 13px;
+}
+
+.button {
+    -fx-background-color: #4f7a5c;
+    -fx-text-fill: #eceff1;
+    -fx-font-size: 13px;
+    -fx-padding: 8 20 8 20;
+    -fx-background-radius: 4;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #5e8c6b;
+}
+
+.button:pressed {
+    -fx-background-color: #3f6249;
+}
+
+.text-field, .password-field {
+    -fx-background-color: #454a50;
+    -fx-text-fill: #eceff1;
+    -fx-prompt-text-fill: #9aa0a6;
+    -fx-background-radius: 4;
 }

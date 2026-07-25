@@ -7,8 +7,8 @@
     xmlns="http://javafx.com/javafx/21.0.1"
     fx:controller="org.diegoraguay.controller.CajeroDashboardController">
     <children>
-        <Label fx:id="lblBienvenida" layoutX="468.0" layoutY="50.0" prefHeight="17.0"
-            prefWidth="70.0" text="Bienvenida " />
+        <Label fx:id="lblBienvenida" layoutX="330.0" layoutY="50.0" prefHeight="17.0"
+               prefWidth="250.0" text="Bienvenida " />
         <Button layoutX="39.0" layoutY="38.0" mnemonicParsing="false" text="Salida" />
         <Label layoutX="242.0" layoutY="200.0" text="CAJERO" />
     </children>
