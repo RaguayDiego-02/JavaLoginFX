@@ -7,7 +7,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
 import org.diegoraguay.model.Usuario;
 
-public class AdminDashboardController implements Initializable, DashboardController {
+public class EmpleadoDashboardController implements Initializable, DashboardController {
     @FXML Label lblBienvenida;
     private Usuario usuarioActual;
 
@@ -19,6 +19,6 @@ public class AdminDashboardController implements Initializable, DashboardControl
     @Override
     public void iniciarUsuario(Usuario usuario) {
         this.usuarioActual = usuario;
-        lblBienvenida.setText("Bienvenido administrado " + usuario.getUsrname());
+        lblBienvenida.setText("Bienvenido empleado " + usuario.getUsrname());
     }
 }
