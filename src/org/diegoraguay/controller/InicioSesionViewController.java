@@ -61,6 +61,10 @@ public class InicioSesionViewController implements Initializable {
                 rutaFXML = "/org/diegoraguay/view/EmpleadoDashboardView.fxml";
                 tituloDashboard = "Panel de Empleado";
                 break;
+            case "cajero":
+                rutaFXML = "/org/diegoraguay/view/CajeroDashboardView.fxml";
+                tituloDashboard = "Panel de Cajero";
+                break;
         }
         try {
             FXMLLoader cargadorFXML = new FXMLLoader(getClass().getResource(rutaFXML));
