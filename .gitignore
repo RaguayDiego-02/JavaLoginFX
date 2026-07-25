@@ -1,7 +1,4 @@
 build/
 dist/
 nbproject/private/
-nbbuild/
-nbdist/
-.nb-gradle/
-*.class
+nbproject/
