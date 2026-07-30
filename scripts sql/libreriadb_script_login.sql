@@ -37,7 +37,13 @@ begin
 end //
 delimiter ;
 
-call sp_registrar_usuario('Raguay', sha2('admin', 256), 'admin'); 
-call sp_iniciar_sesion('Raguay', sha2('admin', 256)); 
+call sp_registrar_usuario('Raguay',sha2('admin',256), 'admin'); 
+call sp_iniciar_sesion('Raguay',sha2('admin', 256)); 
+
+call sp_registrar_usuario('Cajero',sha2('cajero',256), 'cajero'); 
+call sp_iniciar_sesion('Cajero',sha2('cajero', 256));  
+
+call sp_registrar_usuario('Empleado',sha2('empleado',256), 'empleado'); 
+call sp_iniciar_sesion('Empleado',sha2('empleado', 256));   
 
 select * from usuarios; 
